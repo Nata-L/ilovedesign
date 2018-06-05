@@ -1,0 +1,40 @@
+
+body {
+	font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+
+
+.header {
+	background-color: #23232e;
+	text-align: center;
+}
+
+.intro {
+	display: block;
+	box-sizing: border-box;
+	weight: 860px;
+	text-align: center;
+
+}
+
+.article-text {
+	box-sizing: border-box;
+	text-align: center;
+	width: 860px;
+	margin: 125px auto;
+
+}
+
+/*section {
+	display: inline-block;
+}*/
+
+/*div {
+	width: 860px;
+}*/
