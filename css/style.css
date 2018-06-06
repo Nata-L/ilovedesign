@@ -1,7 +1,9 @@
-
-body {
-	margin: 0;
+* {
+	margin: 0px;
 	padding: 0;
+	box-sizing: border-box;
+}
+body {
 	font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 30px;
 	font-style: normal;
@@ -13,7 +15,8 @@ body {
 #logo {
 	height: 134px;
 	width: 134px;
-	margin: 80px auto;
+	padding-top: 80px;
+	padding-left: 48%;
 	background-color: #23232e;
 }
 
@@ -21,6 +24,7 @@ body {
 	background-color: #23232e;
 	text-align: center;
 	max-width: 1920px;
+	margin:0px auto;
 }
 
 h1 {
@@ -40,6 +44,9 @@ h1 {
 	text-align: center;
 
 }
+.order {
+	margin: 0px auto;
+}
 
 .article-text {
 	box-sizing: border-box;
@@ -58,10 +65,11 @@ h2 {
 	background-image: url(../img/bg-main.png);
 }
 
-dl div {
+.list {
 	display: inline-block;
+	width: 300px;
 }
 
 .description {
-	margin: 0;
+	
 }
