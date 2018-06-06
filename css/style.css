@@ -1,5 +1,7 @@
 
 body {
+	margin: 0;
+	padding: 0;
 	font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 30px;
 	font-style: normal;
@@ -8,17 +10,33 @@ body {
 	line-height: 1.4;
 }
 
-
+#logo {
+	height: 134px;
+	width: 134px;
+	margin: 80px auto;
+	background-color: #23232e;
+}
 
 .header {
 	background-color: #23232e;
 	text-align: center;
+	max-width: 1920px;
+}
+
+h1 {
+	margin: 183px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.p-header {
+	color: white;
 }
 
 .intro {
 	display: block;
 	box-sizing: border-box;
-	weight: 860px;
+	width: 860px;
 	text-align: center;
 
 }
@@ -31,10 +49,19 @@ body {
 
 }
 
-/*section {
-	display: inline-block;
-}*/
+h2 {
+	text-transform: uppercase;
+	margin-left: 570px;
+}
 
-/*div {
-	width: 860px;
-}*/
+.main {
+	background-image: url(../img/bg-main.png);
+}
+
+dl div {
+	display: inline-block;
+}
+
+.description {
+	margin: 0;
+}
