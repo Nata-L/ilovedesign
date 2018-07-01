@@ -1,1 +1,1 @@
-rewiew: http://htmlpreview.github.io/?https://github.com/Nata-L/ilovedesign.git
+rewiew: http://htmlpreview.github.io/?https://github.com/Nata-L/ilovedesign/blob/master/index.html
